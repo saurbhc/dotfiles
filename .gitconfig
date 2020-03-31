@@ -1,17 +1,1 @@
-[user]
-	name = SC
-	email = saurbhcop@gmail.com
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[alias]
-	ls = log --oneline            # one line commits
-	s = status                    # status
-	c = commit                    # commit
-	cm = commit -m                # commit with message
-	p = push                      # push
-	po = push origin              # push with remote=origin
-	pom = push origin master      # push to branch=master with remote=origin
-	ap = add -p                   # add chunks of patches
+/Users/saurabhchopra/.gitconfig
