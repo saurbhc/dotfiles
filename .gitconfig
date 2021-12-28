@@ -10,4 +10,4 @@
     branches = git branch -r
     c = commit -m
     po = push origin
-    pm = push main
+    pom = push origin main
