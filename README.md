@@ -2,7 +2,7 @@
 
 - [x] liquidprompt added
 - [x] .bashrc & .bash_profile
-- [] .bashrc & .bash_profile script
+- [ ] .bashrc & .bash_profile script
 - [x] .gitignore
 - [x] .gitignore script
 
