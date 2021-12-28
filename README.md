@@ -8,5 +8,5 @@
 
 ## prerequisites
 
-- [x] chmod +x set_gitconfig.sh
-- [x] ./set_gitconfig.sh
+- [x] chmod +x *.sh
+- [x] ./set_gitconfig.sh && ./set_bash_profile.sh && ./set_bashrc.sh
