@@ -8,3 +8,6 @@
     s = status
     logs = log --oneline --graph --decorate
     branches = git branch -r
+    c = commit -m
+    po = push origin
+    pm = push main
