@@ -40,3 +40,4 @@ export NVM_DIR="$HOME/.nvm"
 ########
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
+alias ldev='cd ~/dev/learnings'

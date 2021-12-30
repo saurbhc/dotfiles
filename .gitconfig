@@ -9,5 +9,6 @@
     logs = log --oneline --graph --decorate
     branches = git branch -r
     c = commit -m
+    a = add
     po = push origin
     pom = push origin main
