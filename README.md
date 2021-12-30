@@ -6,7 +6,6 @@
 - [x] .gitignore
 - [x] .gitignore script
 
-## prerequisites
+## Run it
 
-- [x] chmod +x *.sh
-- [x] ./set_gitconfig.sh && ./set_bash_profile.sh && ./set_bashrc.sh
+chmod +x set_all.sh && ./set_all.sh
