@@ -14,3 +14,8 @@ pyenv update
 # restart shell
 exec $SHELL
 
+# pyenv install 3.10.1
+# pyenv global 3.10.1
+# OR
+# pyenv local 3.10.1
+# python3
