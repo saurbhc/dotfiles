@@ -14,3 +14,5 @@
     ds = diff --staged
     po = push origin
     pom = push origin main
+    puo = pull origin
+    puom = pull origin main
