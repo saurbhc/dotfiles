@@ -41,3 +41,5 @@ export NVM_DIR="$HOME/.nvm"
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
 alias ldev='cd ~/dev/learnings'
+alias ldev='cd ~/dev/learnings'
+alias segpip='cd ~/dev/segmind/github/segmind_gh'
