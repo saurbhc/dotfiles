@@ -10,5 +10,7 @@
     branches = git branch -r
     c = commit -m
     a = add
+    d = diff
+    ds = diff --staged
     po = push origin
     pom = push origin main
