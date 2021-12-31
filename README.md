@@ -11,6 +11,6 @@
 chmod +x set_all.sh && ./set_all.sh
 ```
 
-# Mannual
+## Mannual
 
 Follow instructions at set_gh_ssh.md
