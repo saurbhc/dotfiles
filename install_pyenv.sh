@@ -10,6 +10,13 @@ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev li
 # Install
 curl https://pyenv.run | bash
 
+# update .bash_profile
+echo "export PYENV_ROOT=\"$HOME/.pyenv\"" >> ~/.bash_profile
+echo "export PATH=\"$PYENV_ROOT/bin:$PATH\"" >> ~/.bash_profile
+
+# update .bashrc
+echo "eval \"$(pyenv virtualenv-init -)\"" >> ~/.bashrc
+
 # update
 pyenv update
 
