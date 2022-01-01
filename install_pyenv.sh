@@ -15,7 +15,11 @@ echo "export PYENV_ROOT=\"$HOME/.pyenv\"" >> ~/.bash_profile
 echo "export PATH=\"$PYENV_ROOT/bin:$PATH\"" >> ~/.bash_profile
 
 # update .bashrc
-echo "eval \"$(pyenv virtualenv-init -)\"" >> ~/.bashrc
+echo "eval \"\$(pyenv virtualenv-init -)\"" >> ~/.bashrc
+
+# source
+source ~/.bash_profile
+source ~/.bashrc
 
 # update
 pyenv update
