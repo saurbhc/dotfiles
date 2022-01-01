@@ -43,3 +43,8 @@ alias sdev='cd ~/dev/saurbhc'
 alias ldev='cd ~/dev/learnings'
 alias ldev='cd ~/dev/learnings'
 alias segpip='cd ~/dev/segmind/github/segmind_gh'
+
+########
+# github Octocat Zen
+########
+curl -s https://api.github.com/octocat
