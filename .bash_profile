@@ -1,4 +1,6 @@
-export PS1='\u@\H:\w$ '
+#export PS1='\u@\H:\w$ '
+
+PS1='\[\e]0;\u@\h: \w\a\]\[\033[1;92m\]\u@\h\[\033[m\]:\[\033[1;94m\]\w\[\033[m\]\n\$ '
 
 eval "$(pyenv init -)"
 
