@@ -1,11 +1,5 @@
 # guide to set alias: https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
 
-[user]
-	name = Saurabh Chopra
-	email = Saurabh.Chopra.2021@live.rhul.ac.uk
-	username = saurbhc
-[init]
-    defaultBranch = main
 [alias]
     s = status
     logs = log --oneline --graph --decorate
@@ -18,3 +12,9 @@
     pom = push origin main
     puo = pull origin
     puom = pull origin main
+[init]
+    defaultBranch = main
+[user]
+	name = Saurabh Chopra
+	email = Saurabh.Chopra.2021@live.rhul.ac.uk
+	username = saurbhc
