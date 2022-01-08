@@ -12,6 +12,8 @@
     pom = push origin main
     puo = pull origin
     puom = pull origin main
+[core]
+    editor = vim
 [init]
     defaultBranch = main
 [user]
