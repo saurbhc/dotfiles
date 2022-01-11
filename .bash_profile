@@ -46,6 +46,8 @@ alias ldev='cd ~/dev/learnings'
 alias segpip='cd ~/dev/segmind/github/segmind_gh'
 alias saurabh='cd ~/Desktop/saurabh/'
 alias scv='cd ~/Desktop/CV/'
+alias course='cd ~/Royal\ Holloway\,\ Univeristy\ of\ London/OneDrive\ -\ Royal\ Holloway\ University\ of\ London/Course/'
+alias idk='echo "¯\_(ツ)_/¯"'
 
 ########
 # github Octocat Zen
