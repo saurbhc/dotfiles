@@ -45,6 +45,7 @@ alias sdev='cd ~/dev/saurbhc'
 alias ldev='cd ~/dev/learnings'
 alias segpip='cd ~/dev/segmind/github/segmind_gh'
 alias saurabh='cd ~/Desktop/saurabh/'
+alias scv='cd ~/Desktop/CV/'
 
 ########
 # github Octocat Zen
