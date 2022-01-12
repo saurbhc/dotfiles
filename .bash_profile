@@ -47,6 +47,7 @@ alias segpip='cd ~/dev/segmind/github/segmind_gh'
 alias saurabh='cd ~/Desktop/saurabh/'
 alias scv='cd ~/Desktop/CV/'
 alias idk='echo "¯\_(ツ)_/¯"'
+alias course='cd ~/Royal\ Holloway\,\ Univeristy\ of\ London/OneDrive\ -\ Royal\ Holloway\ University\ of\ London/Course/'
 
 ########
 # github Octocat Zen
