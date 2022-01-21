@@ -4,6 +4,8 @@
 - [x] .bashrc & .bash_profile script
 - [x] .gitignore
 - [x] .gitignore script
+- [x] .config/nvim/*
+- [ ] nvim script
 
 ## Run it
 
@@ -14,3 +16,4 @@ chmod +x set_all.sh && ./set_all.sh
 ## Manual
 
 Follow instructions at set_gh_ssh.md
+
