@@ -9,6 +9,6 @@
 
 ### Plugins
 
-- [vim-airline][https://github.com/vim-airline/vim-airline]
--
+- [vim-airline](https://github.com/vim-airline/vim-airline)
+- [nerdtree](https://github.com/preservim/nerdtree)
 
