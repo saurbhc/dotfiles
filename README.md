@@ -7,9 +7,12 @@
 - [x] .config/nvim/*
 - [ ] nvim script
 
-## Run it
-
+<details>
+  <summary>### Run it</summary>
 ```bash
 chmod +x set_all.sh && ./set_all.sh
 ```
+</details>
+
+_more coming soon..._
 
