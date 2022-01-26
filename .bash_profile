@@ -40,6 +40,7 @@ export NVM_DIR="$HOME/.nvm"
 ########
 # ALIAS
 ########
+alias l='ls -lah'
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
 alias ldev='cd ~/dev/learnings'
@@ -53,3 +54,4 @@ alias course='cd ~/Royal\ Holloway\,\ Univeristy\ of\ London/OneDrive\ -\ Royal\
 # github Octocat Zen
 ########
 curl -s https://api.github.com/octocat
+
