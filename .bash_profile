@@ -41,6 +41,7 @@ export NVM_DIR="$HOME/.nvm"
 # ALIAS
 ########
 alias l='ls -lah'
+alias pwdd='printf "%q\n" "$(pwd)"'
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
 alias ldev='cd ~/dev/learnings'
