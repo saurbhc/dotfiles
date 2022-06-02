@@ -50,9 +50,9 @@ alias saurabh='cd ~/Desktop/saurabh/'
 alias scv='cd ~/Desktop/CV/'
 alias idk='echo "¯\_(ツ)_/¯"'
 alias course='cd ~/Royal\ Holloway\,\ Univeristy\ of\ London/OneDrive\ -\ Royal\ Holloway\ University\ of\ London/Course/'
+alias intel='/usr/bin/arch -x86_64'
 
 ########
 # github Octocat Zen
 ########
 curl -s https://api.github.com/octocat
-
