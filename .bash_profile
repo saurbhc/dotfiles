@@ -56,3 +56,4 @@ alias intel='/usr/bin/arch -x86_64'
 # github Octocat Zen
 ########
 curl -s https://api.github.com/octocat
+export PATH="/usr/local/opt/curl/bin:$PATH"
