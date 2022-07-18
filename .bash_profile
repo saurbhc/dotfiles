@@ -57,3 +57,6 @@ alias intel='/usr/bin/arch -x86_64'
 ########
 curl -s https://api.github.com/octocat
 export PATH="/usr/local/opt/curl/bin:$PATH"
+
+export EDITOR=nvim
+export VISUAL=nvim
