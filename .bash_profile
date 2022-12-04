@@ -53,7 +53,7 @@ alias scv='cd ~/Desktop/CV/'
 alias course='cd ~/Royal\ Holloway\,\ Univeristy\ of\ London/OneDrive\ -\ Royal\ Holloway\ University\ of\ London/Course/'
 # shorthand
 alias intel='/usr/bin/arch -x86_64'
-alias alias tf=terraform
+alias tf=terraform
 # misc
 alias idk='echo "¯\_(ツ)_/¯"'
 alias wtf="echo 'wtf indeed.'"
