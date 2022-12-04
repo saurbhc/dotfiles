@@ -40,17 +40,24 @@ export NVM_DIR="$HOME/.nvm"
 ########
 # ALIAS
 ########
-alias l='ls -lah'
+alias l='ls -lah --color=auto'
+alias ls='ls --color=auto'
 alias pwdd='printf "%q\n" "$(pwd)"'
+# cd
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
 alias ldev='cd ~/dev/learnings'
 alias segpip='cd ~/dev/segmind/github/segmind_gh'
 alias saurabh='cd ~/Desktop/saurabh/'
 alias scv='cd ~/Desktop/CV/'
-alias idk='echo "¯\_(ツ)_/¯"'
 alias course='cd ~/Royal\ Holloway\,\ Univeristy\ of\ London/OneDrive\ -\ Royal\ Holloway\ University\ of\ London/Course/'
+# shorthand
 alias intel='/usr/bin/arch -x86_64'
+alias alias tf=terraform
+# misc
+alias idk='echo "¯\_(ツ)_/¯"'
+alias wtf="echo 'wtf indeed.'"
+alias cry='sh -c '"'"'echo ":'"'"'"'"'"'"'"'"'("'"'"''
 
 ########
 # github Octocat Zen
@@ -60,3 +67,8 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 
 export EDITOR=nvim
 export VISUAL=nvim
+
+########
+# kubectl-up/down
+########
+export PATH=~/dev/saurbhc/kubectl-up:$PATH;
