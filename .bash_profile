@@ -22,7 +22,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
 ########
 # Add Visual Studio Code (code)
@@ -79,3 +79,9 @@ export VISUAL=nvim
 # kubectl-up/down
 ########
 export PATH=~/dev/saurbhc/kubectl-up:$PATH;
+
+########
+# pyenv
+########
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
