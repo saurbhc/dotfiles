@@ -43,6 +43,8 @@ export NVM_DIR="$HOME/.nvm"
 alias l='ls -lah --color=auto'
 alias ls='ls --color=auto'
 alias pwdd='printf "%q\n" "$(pwd)"'
+alias vi='nvim'
+alias vim='nvim'
 # cd
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
