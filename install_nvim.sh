@@ -7,7 +7,7 @@ then
     echo "updating system..."
     sudo apt-get update
     echo "installing neovim.."
-    sudo apt-get install neovim
+    sudo apt-get install -y neovim
 elif [ "$(uname)" == "Darwin" ]
 then
     echo "NotImplemented for Darwin yet..."
