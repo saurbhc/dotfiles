@@ -2,32 +2,12 @@
 
 PS1='\[\e]0;\u@\h: \w\a\]\[\033[1;92m\]\u@\h\[\033[m\]:\[\033[1;94m\]\w\[\033[m\]\n\$ '
 
+########
+# pyenv
+########
+export PYENV_ROOT="/home/ubuntu/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-
-########
-# conda
-########
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/saurabhchopra/opt/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/saurabhchopra/opt/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/saurabhchopra/opt/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/saurabhchopra/opt/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-# . "$HOME/.cargo/env"
-
-########
-# Add Visual Studio Code (code)
-########
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 ########
 # Poetry Path
@@ -35,12 +15,14 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 export PATH=$PATH:$HOME/.poetry/bin
 
 ########
-# nvm
+# Add Visual Studio Code (code)
 ########
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+########
+# kubectl-up/down
+########
+# export PATH=~/dev/saurbhc/kubectl-up:$PATH;
 
 ########
 # ALIAS
@@ -79,14 +61,3 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 
 export EDITOR=nvim
 export VISUAL=nvim
-
-########
-# kubectl-up/down
-########
-# export PATH=~/dev/saurbhc/kubectl-up:$PATH;
-
-########
-# pyenv
-########
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
