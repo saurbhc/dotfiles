@@ -83,7 +83,7 @@ export VISUAL=nvim
 ########
 # kubectl-up/down
 ########
-export PATH=~/dev/saurbhc/kubectl-up:$PATH;
+# export PATH=~/dev/saurbhc/kubectl-up:$PATH;
 
 ########
 # pyenv
