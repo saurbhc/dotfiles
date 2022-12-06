@@ -4,7 +4,7 @@ if [ -f "/home/ubuntu/.bash_profile" ]; then
 fi
 
 # set file
-cp .bash_profile /home/ubuntu/.bash_profile
+cp /home/ubuntu/dev/saurbhc/dotfiles/.bash_profile /home/ubuntu/.bash_profile
 
 # source
 source /home/ubuntu/.bash_profile
