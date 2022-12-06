@@ -1,8 +1,10 @@
 # create a backup
-cp $HOME/.bash_profile $HOME/".bash_profile_$(date +"%m_%d_%Y__%H_%M_%S")"
+if [ -f "/home/ubuntu/.bash_profile" ]; then
+    cp /home/ubuntu/.bash_profile /home/ubuntu/".bash_profile_$(date +"%m_%d_%Y__%H_%M_%S")"
+fi
 
 # set file
-cp .bash_profile $HOME/.bash_profile
+cp /home/ubuntu/dev/saurbhc/dotfiles/.bash_profile /home/ubuntu/.bash_profile
 
 # source
-source $HOME/.bash_profile
+source /home/ubuntu/.bash_profile
