@@ -7,7 +7,7 @@ PS1='\[\e]0;\u@\h: \w\a\]\[\033[1;92m\]\u@\h\[\033[m\]:\[\033[1;94m\]\w\[\033[m\
 ########
 export PYENV_ROOT="/home/ubuntu/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+eval "$(pyenv init - --no-rehash)"
 
 ########
 # Poetry Path
