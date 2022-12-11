@@ -23,3 +23,15 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 nnoremap <C-n> :NERDTreeToggle<CR>
+
+" Link: https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources#use-tab-or-custom-key-for-trigger-completion
+" use <tab> to trigger completion and navigate to the next complete item
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+inoremap <silent><expr> <Tab>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
