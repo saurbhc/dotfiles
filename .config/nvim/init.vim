@@ -17,7 +17,6 @@ call plug#begin()
 
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/preservim/nerdtree'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'zchee/deoplete-jedi'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'scrooloose/nerdcommenter'
