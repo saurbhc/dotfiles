@@ -24,6 +24,7 @@ Plug 'scrooloose/nerdcommenter'
 call plug#end()
 
 let g:deoplete#enable_at_startup = 1
+let g:NERDTreeWinPos = "right"
 
 nnoremap <C-n> :NERDTreeToggle<CR>
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
