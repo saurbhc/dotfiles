@@ -13,6 +13,13 @@ set cc=80                   " set an 80 column border for good coding style
 filetype plugin indent on   " allows auto-indenting depending on file type
 syntax on                   " syntax highlighting
 
+" Link: https://www.reddit.com/r/neovim/comments/chlmfk/comment/euv37cc/?utm_source=share&utm_medium=web2x&context=3
+set list
+set listchars=tab:>\ ,trail:-,nbsp:+
+
+" Link: https://stackoverflow.com/questions/4608161/copying-text-outside-of-vim-with-set-mouse-a-enabled
+:set mouse=a
+
 call plug#begin()
 
 Plug 'https://github.com/vim-airline/vim-airline'
