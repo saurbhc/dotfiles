@@ -36,6 +36,10 @@ let g:NERDTreeWinPos = "right"
 nnoremap <C-n> :NERDTreeToggle<CR>
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
+# Link: https://stackoverflow.com/questions/3446320/in-vim-how-to-map-save-to-ctrl-s
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR>
+inoremap <silent> <C-S>         <C-O>:update<CR>
 
 " Link: https://github.com/preservim/nerdcommenter#settings
 " Create default mappings
