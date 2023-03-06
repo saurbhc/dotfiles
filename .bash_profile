@@ -2,6 +2,9 @@
 
 PS1='\[\e]0;\u@\h: \w\a\]\[\033[1;92m\]\u@\h\[\033[m\]:\[\033[1;94m\]\w\[\033[m\]\n\$ '
 
+# it's unclear why this changed between 18.04 and 20.04
+umask 0022
+
 ########
 # pyenv
 ########
