@@ -21,4 +21,6 @@
 [user]
 	name = Saurabh Chopra
 	email = Saurabh.Chopra.2021@live.rhul.ac.uk
-    username = saurbhc
+        username = saurbhc
+[grep]
+        lineNumber = true
