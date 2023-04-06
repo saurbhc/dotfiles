@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euxo pipefail
+
 # create .config/nvim dir if not exists
 mkdir -p /home/ubuntu/.config/nvim
 
