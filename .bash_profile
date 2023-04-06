@@ -14,7 +14,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 ########
 # Poetry Path
 ########
-export PATH=$PATH:$HOME/.poetry/bin
+export PATH=$PATH:$HOME/.local/bin
 
 ########
 # Add Visual Studio Code (code)
