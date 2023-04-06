@@ -19,8 +19,8 @@
 [init]
     defaultBranch = main
 [user]
-	name = Saurabh Chopra
-	email = Saurabh.Chopra.2021@live.rhul.ac.uk
-        username = saurbhc
+    name = Saurabh Chopra
+    email = Saurabh.Chopra.2021@live.rhul.ac.uk
+    username = saurbhc
 [grep]
-        lineNumber = true
+    lineNumber = true
