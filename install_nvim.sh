@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euxo pipefail
+
 if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]
 then
     echo "setting ppa..."
