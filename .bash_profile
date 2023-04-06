@@ -51,10 +51,8 @@ alias wtf="echo 'wtf indeed.'"
 alias cry='sh -c '"'"'echo ":'"'"'"'"'"'"'"'"'("'"'"''
 
 ########
-# github Octocat Zen
+# exports
 ########
-curl -s https://api.github.com/octocat
 export PATH="/usr/local/opt/curl/bin:$PATH"
-
 export EDITOR=nvim
 export VISUAL=nvim
