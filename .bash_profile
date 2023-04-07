@@ -50,6 +50,7 @@ alias all-repos-grep='/opt/venvs/all-repos-venv/bin/all-repos-grep -C /home/ubun
 alias all-repos-manual='/opt/venvs/all-repos-venv/bin/all-repos-manual -C /home/ubuntu/scripts/all-repos.json'
 alias all-repos-list-repos='/opt/venvs/all-repos-venv/bin/all-repos-list-repos -C /home/ubuntu/scripts/all-repos.json'
 alias all-repos-find-files='/opt/venvs/all-repos-venv/bin/all-repos-find-files -C /home/ubuntu/scripts/all-repos.json'
+alias pre-commit='/opt/venvs/pre-commit-venv/bin/pre-commit'
 # misc
 alias idk='echo "¯\_(ツ)_/¯"'
 alias wtf="echo 'wtf indeed.'"
