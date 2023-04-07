@@ -4,12 +4,13 @@ set -euxo pipefail
 
 if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]
 then
-    echo "setting ppa..."
-    sudo add-apt-repository ppa:neovim-ppa/stable
-    echo "updating system..."
-    sudo apt-get update
     echo "installing neovim.."
-    sudo apt-get install -y neovim
+    sudo apt-get install -y fuse libfuse2
+    wget --quiet https://github.com/neovim/neovim/releases/download/stable/nvim.appimage --output-document nvim
+    chmod +x nvim
+    sudo chown root:root nvim
+    sudo mv nvim /usr/bin/
+
     echo "installing vimplug.."
     sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
     
