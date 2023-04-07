@@ -45,6 +45,8 @@ alias course='cd ~/Royal\ Holloway\,\ Univeristy\ of\ London/OneDrive\ -\ Royal\
 # shorthand
 alias intel='/usr/bin/arch -x86_64'
 alias tf=terraform
+alias all-repos-clone='/opt/venvs/all-repos-venv/bin/all-repos-clone -C /home/ubuntu/scripts/all-repos.json'
+alias all-repos-grep='/opt/venvs/all-repos-venv/bin/all-repos-grep -C /home/ubuntu/scripts/all-repos.json'
 # misc
 alias idk='echo "¯\_(ツ)_/¯"'
 alias wtf="echo 'wtf indeed.'"
