@@ -63,3 +63,8 @@ alias cry='sh -c '"'"'echo ":'"'"'"'"'"'"'"'"'("'"'"''
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export EDITOR=nvim
 export VISUAL=nvim
+
+########
+# alt eval
+########
+[ -d /opt/venvs/aactivator-venv ] && eval "$(/opt/venvs/aactivator-venv/bin/aactivator init)"
