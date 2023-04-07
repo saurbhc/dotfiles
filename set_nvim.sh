@@ -11,5 +11,5 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # copy the init.vim file
-cp /home/ubuntu/dev/saurbhc/dotfiles/.config/nvim/init.vim /home/ubuntu/.config/nvim/init.vim
+cp /home/ubuntu/dev/saurbhc/dotfiles/nvim/init.vim /home/ubuntu/.config/nvim/init.vim
 
