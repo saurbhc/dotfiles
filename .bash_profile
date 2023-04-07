@@ -47,6 +47,9 @@ alias intel='/usr/bin/arch -x86_64'
 alias tf=terraform
 alias all-repos-clone='/opt/venvs/all-repos-venv/bin/all-repos-clone -C /home/ubuntu/scripts/all-repos.json'
 alias all-repos-grep='/opt/venvs/all-repos-venv/bin/all-repos-grep -C /home/ubuntu/scripts/all-repos.json'
+alias all-repos-manual='/opt/venvs/all-repos-venv/bin/all-repos-manual -C /home/ubuntu/scripts/all-repos.json'
+alias all-repos-list-repos='/opt/venvs/all-repos-venv/bin/all-repos-list-repos -C /home/ubuntu/scripts/all-repos.json'
+alias all-repos-find-files='/opt/venvs/all-repos-venv/bin/all-repos-find-files -C /home/ubuntu/scripts/all-repos.json'
 # misc
 alias idk='echo "¯\_(ツ)_/¯"'
 alias wtf="echo 'wtf indeed.'"
