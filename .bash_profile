@@ -67,4 +67,4 @@ export VISUAL=nvim
 ########
 # alt eval
 ########
-[ -d /opt/venvs/aactivator-venv ] && eval "$(/opt/venvs/aactivator-venv/bin/aactivator init)"
+if [ -d /opt/venvs/aactivator-venv ]; then eval "$(/opt/venvs/aactivator-venv/bin/aactivator init)"; fi
