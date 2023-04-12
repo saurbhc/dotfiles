@@ -1,5 +1,7 @@
 # dotfiles
 
+Caution: It's a work in progress and highly opinionated!
+
 - [x] .bashrc & .bash_profile
 - [x] .bashrc & .bash_profile script
 - [x] .gitignore
