@@ -24,3 +24,4 @@
     username = saurbhc
 [grep]
     lineNumber = true
+    extendedRegexp = true
