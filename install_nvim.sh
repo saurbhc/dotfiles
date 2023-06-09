@@ -16,6 +16,9 @@ then
     
     # echo "installing python extensions"
     # python3 -m pip install --upgrade pynvim jedi
+    
+    # installing github copilot
+    git clone https://github.com/github/copilot.vim.git ~/.config/nvim/pack/github/start/copilot.vim
 elif [ "$(uname)" == "Darwin" ]
 then
     echo "NotImplemented for Darwin yet..."
