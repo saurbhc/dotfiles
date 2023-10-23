@@ -34,6 +34,7 @@ alias ls='ls --color=auto'
 alias pwdd='printf "%q\n" "$(pwd)"'
 alias vi='nvim'
 alias vim='nvim'
+alias podman='/opt/homebrew/bin/podman'
 # cd
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
