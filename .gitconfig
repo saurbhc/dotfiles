@@ -16,6 +16,8 @@
     puom = pull origin main
 [color]
     ui = true
+[commit]
+    gpgsign = true
 [core]
     editor = nvim
 [grep]
@@ -23,6 +25,6 @@
 [init]
     defaultBranch = main
 [user]
-	name = Saurabh Chopra
+    name = Saurabh Chopra
     email = sc@saurabhchopra.co.uk
     username = saurbhc
