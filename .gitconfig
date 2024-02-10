@@ -14,14 +14,15 @@
     pom = push origin main
     puo = pull origin
     puom = pull origin main
+[color]
+    ui = true
 [core]
     editor = nvim
+[grep]
+    extendedRegexp = true
 [init]
     defaultBranch = main
 [user]
-    name = Saurabh Chopra
-    email = Saurabh.Chopra.2021@live.rhul.ac.uk
+	name = Saurabh Chopra
+    email = sc@saurabhchopra.co.uk
     username = saurbhc
-[grep]
-    lineNumber = true
-    extendedRegexp = true
