@@ -35,6 +35,7 @@ alias pwdd='printf "%q\n" "$(pwd)"'
 alias vi='nvim'
 alias vim='nvim'
 alias podman='/opt/homebrew/bin/podman'
+alias gitroot='cd $(git rev-parse --show-toplevel)'
 # cd
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
