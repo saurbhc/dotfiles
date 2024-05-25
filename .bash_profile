@@ -36,6 +36,7 @@ alias vi='nvim'
 alias vim='nvim'
 alias podman='/opt/homebrew/bin/podman'
 alias gitroot='cd $(git rev-parse --show-toplevel)'
+alias grep='grep --color=auto --line-buffered'
 # cd
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
