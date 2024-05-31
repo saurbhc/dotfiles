@@ -10,6 +10,7 @@ umask 0022
 ########
 export PYENV_ROOT="/home/ubuntu/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
 
 ########
 # Poetry Path
