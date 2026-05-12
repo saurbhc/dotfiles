@@ -107,3 +107,8 @@ if [ -d /opt/venvs/aactivator-venv ]; then eval "$(/opt/venvs/aactivator-venv/bi
 # asdf
 ########
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
+########
+# cargo
+########
+export PATH="$HOME/.cargo/bin:$PATH"
