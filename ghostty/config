@@ -1,0 +1,4 @@
+command = /bin/bash
+theme = Ubuntu
+font-size = 16
+keybind = shift+enter=text:\x1b\r
