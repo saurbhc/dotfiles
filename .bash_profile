@@ -8,9 +8,29 @@ umask 0022
 ########
 # pyenv
 ########
-export PYENV_ROOT="/home/ubuntu/.pyenv"
+export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
+
+########
+# go
+########
+# export PATH=$PATH:$(go env GOPATH)/bin
+
+########
+# nvim
+########
+# export PATH="~/nvim-macos/bin/:$PATH"
+
+########
+# podman
+########
+export PATH="~/.local/share/containers/podman-desktop/extensions-storage/podman-desktop.compose/bin/:$PATH"
+
+########
+# brew
+########
+export PATH="/opt/homebrew/bin:$PATH"
 
 ########
 # Poetry Path
@@ -28,9 +48,15 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # export PATH=~/dev/saurbhc/kubectl-up:$PATH;
 
 ########
+# bash silence warning
+########
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+########
 # ALIAS
 ########
-alias l='ls -lah --color=auto'
+alias l='ls -lath --color=auto'
+alias grep='grep --color=auto --line-buffered'
 alias ls='ls --color=auto'
 alias pwdd='printf "%q\n" "$(pwd)"'
 alias vi='nvim'
@@ -38,7 +64,6 @@ alias vim='nvim'
 alias vimdiff='nvim -d'
 alias podman='/opt/homebrew/bin/podman'
 alias gitroot='cd $(git rev-parse --show-toplevel)'
-alias grep='grep --color=auto --line-buffered'
 # cd
 alias dev='cd ~/dev'
 alias sdev='cd ~/dev/saurbhc'
@@ -58,6 +83,9 @@ alias all-repos-find-files='/opt/venvs/all-repos-venv/bin/all-repos-find-files -
 alias pre-commit='/opt/venvs/pre-commit-venv/bin/pre-commit'
 alias aactivator='/opt/venvs/aactivator-venv/bin/aactivator'
 alias awsslack='/opt/venvs/awsslack-venv/bin/awsslack'
+alias tl='~/dev/toolong/.venv/bin/tl'
+alias roc='~/dev/runs-on/roc'
+alias yamlfmt='~/go/bin/yamlfmt'
 # misc
 alias idk='echo "¯\_(ツ)_/¯"'
 alias wtf="echo 'wtf indeed.'"
@@ -74,3 +102,8 @@ export VISUAL=nvim
 # alt eval
 ########
 if [ -d /opt/venvs/aactivator-venv ]; then eval "$(/opt/venvs/aactivator-venv/bin/aactivator init)"; fi
+
+########
+# asdf
+########
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
